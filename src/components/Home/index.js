@@ -10,7 +10,7 @@ const Home = () => {
         <div className='home-container'>
             <div className='classpass-container'>
                 <Header />
-                <h1 className='classpass-heading'>classpass</h1>
+                <h1 className='classpass-heading'>classpasss</h1>
             </div>
             <div className='main-container'>
 
