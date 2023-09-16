@@ -1,159 +1,174 @@
-.home-container{
-    /* height: 100vh; */
+.home-container {
+    width: 100vw;
 }
 
-@media screen and (min-width: 768px){
-    .classpass-container{
-        background-image: url("https://res.cloudinary.com/my-cloud123/image/upload/v1694769141/Creative%20skills/ClassPass_Press_Image43_1_hwm7zx.png");
-        background-size: cover;
+.classpass-container {
+    background-image: url("https://res.cloudinary.com/my-cloud123/image/upload/v1694769141/Creative%20skills/ClassPass_Press_Image43_1_hwm7zx.png");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.classpass-heading {
+    color: #ffffff;
+    /* font-family: "Roboto"; */
+    font-size: 30px;
+    font-weight: 400;
+    margin: auto;
+    /* text-align: center; */
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #c1b1c1, #cae1af);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.sub-heading {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.para {
+    max-width: 300px;
+    font-size: 10px;
+}
+
+.center-aligned-para {
+    text-align: center;
+}
+
+.worked-together-img {
+    height: 250px;
+    width: 350px;
+}
+
+.challenge-para {
+    text-align: center;
+}
+
+.challenge-image-container {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.challenge-image {
+    height: 120px;
+    width: 170px;
+}
+
+.results-container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 280px;
+    margin-bottom: 20px;
+}
+
+.result-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-detail-heading {
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: #3c3c3c;
+}
+
+.result-detail-para {
+    font-size: 10px;
+    max-width: 50px;
+}
+
+.result-image {
+    height: 250px;
+    width: 360px;
+    margin-bottom: 20px;
+}
+
+.name-title-company-heading {
+    font-size: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .classpass-container {
         height: 600px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        /* justify-content: center; */
-        /* align-items: center; */
     }
-    
-    .classpass-heading{
-        color: #ffffff;
-        /* font-family: "Roboto"; */
+
+    .classpass-heading {
         font-size: 50px;
         font-weight: 400;
         margin: auto;
-        /* text-align: center; */
     }
-    
-    .main-container{
-    
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-image: linear-gradient(to bottom, #c1b1c1, #cae1af);
+
+    .main-container {
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    
-    
-    .sub-heading{
+
+    .sub-heading {
         font-size: 15px;
         font-weight: 500;
     }
-    
-    .para{
+
+    .para {
         max-width: 400px;
         font-size: 12px;
     }
-    
-    .center-aligned-para{
-        text-align: center;
-    }
-    
-    .worked-together-img{
+
+    .worked-together-img {
         height: 350px;
         width: 500px;
     }
-    
-    .challenge-para{
-        text-align: center;
-    }
-    
-    .challenge-image-container{
-        display: flex;
-        justify-content: space-between;
+
+    .challenge-image-container {
         width: 510px;
     }
-    
-    .challenge-image{
+
+    .challenge-image {
         height: 180px;
         width: 250px;
     }
-    
-    .results-container{
-        display: flex;
-        justify-content: space-between;
+
+    .results-container {
         min-width: 400px;
     }
-    .result-detail-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .result-detail-heading{
+
+    .result-detail-heading {
         font-size: 50px;
         margin-bottom: 0px;
-        color: #3c3c3c;
+
     }
-    .result-detail-para{
+
+    .result-detail-para {
         font-size: 12px;
         max-width: 50px;
     }
-    
-    .result-image{
+
+    .result-image {
         height: 350px;
         width: 500px;
     }
-    
-    .name-title-company-heading{
+
+    .name-title-company-heading {
         font-size: 9px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
+
     
-    
-    
-    
-    
-    .popup-content{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: #000000;
-      width: 100vw;
-      height: 100vh;
-    }
-    
-    .modal-container {
-        flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding: 10px;
-        /* max-width: 458px; */
-      }
-    
-      .close-button{
-        background: transparent;
-        border: none;
-        align-self: flex-end;
-    }
-    
-    .close-icon{
-        color: #ffffff;
-        font-size: 30px;
-    }
-    
-    .nav-links-container{
-        flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .nav-link{
-        text-decoration: none;
-    }
-    
-    .nav-link-item{
-        list-style-type: none;
-        
-    }
-    
-    .nav-link-content{
-        color: #ffffff;
-        font-size: 50px;
-        margin: 0px;
-    }
 }

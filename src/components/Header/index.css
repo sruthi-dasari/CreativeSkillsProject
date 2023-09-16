@@ -1,7 +1,7 @@
-.navbar-container{
+.header-container{
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
 
 .logo-button{
@@ -14,8 +14,7 @@
 
 .logo-image{
     color: #ffffff;
-    font-size: 50px;
-    
+    font-size: 30px;
 }
 
 .menu-button{
@@ -30,4 +29,112 @@
 .menu-icon{
     color: #ffffff;
     font-size: 20px;
+}
+
+.popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    /* max-width: 458px; */
+}
+
+.close-button {
+    background: transparent;
+    border: none;
+    align-self: flex-end;
+}
+
+.close-icon {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.nav-links-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link-item {
+    list-style-type: none;
+}
+
+.nav-link-content {
+    color: #ffffff;
+    font-size: 50px;
+    margin: 0px;
+}
+
+@media screen and(min-width: 768px){
+    .navbar-container{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .logo-button{
+        margin-left: auto;
+        margin-right: auto;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .logo-image{
+        color: #ffffff;
+        font-size: 50px;
+        
+    }
+    
+    .menu-button{
+        background: transparent;
+        border: none;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        /* z-index: 1; */
+    }
+    
+    .menu-icon{
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .popup-content {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .modal-container {
+        width: 100%;
+        padding: 10px;
+        /* max-width: 458px; */
+    }
+
+    .close-icon {
+        font-size: 30px;
+    }
+
+    .nav-link-content {
+        font-size: 50px;
+        margin: 0px;
+    }
 }

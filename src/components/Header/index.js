@@ -10,7 +10,7 @@ import Popup from 'reactjs-popup'
 
 const Header = () => (
     <div className='header-container'>
-        <div className='navbar-container'>
+        
             <button type="button" className='logo-button'>
                 <CgShapeTriangle className='logo-image' />
             </button>
@@ -42,7 +42,7 @@ const Header = () => (
                 )}
             </Popup>
 
-        </div>
+       
     </div>
 )
 
