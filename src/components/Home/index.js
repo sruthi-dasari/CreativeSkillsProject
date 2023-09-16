@@ -8,7 +8,6 @@ const Home = () => {
 
     return (
         <div className='home-container'>
-
             <div className='classpass-container'>
                 <Header />
                 <h1 className='classpass-heading'>classpass</h1>
