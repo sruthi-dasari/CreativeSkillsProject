@@ -1,3 +1,5 @@
+import './index.css'
+
 import '../Footer'
 
 import { CgShapeTriangle } from 'react-icons/cg'
