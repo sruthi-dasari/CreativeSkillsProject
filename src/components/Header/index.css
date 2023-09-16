@@ -1,0 +1,33 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo-button{
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.logo-image{
+    color: #ffffff;
+    font-size: 50px;
+    
+}
+
+.menu-button{
+    background: transparent;
+    border: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    /* z-index: 1; */
+}
+
+.menu-icon{
+    color: #ffffff;
+    font-size: 20px;
+}

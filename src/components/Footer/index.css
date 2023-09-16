@@ -1,0 +1,35 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.footer-sections-container{
+    display: flex;
+    justify-content: space-between;
+    min-width: 600px;
+}
+
+.footer-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-section-heading{
+    font-size: 11px;
+}
+
+.footer-section-para{
+    font-size: 11px;
+    max-width: 130px;
+    text-align: center;
+}
+
+.footer-logo-image{
+    color: #818181;
+    font-size: 40px;
+}
