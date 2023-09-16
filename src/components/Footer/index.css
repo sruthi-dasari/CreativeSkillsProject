@@ -4,14 +4,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #ffffff;
 }
 
 .footer-sections-container{
     display: flex;
     justify-content: space-between;
-    min-width: 600px;
+    width: 100%;
 }
 
 .footer-section-container{
@@ -21,18 +21,18 @@
 }
 
 .footer-section-heading{
-    font-size: 11px;
+    font-size: 8px;
 }
 
 .footer-section-para{
-    font-size: 11px;
-    max-width: 130px;
+    font-size: 7px;
+    max-width: 50px;
     text-align: center;
 }
 
 .footer-logo-image{
     color: #818181;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 @media screen and(min-width: 768px){
