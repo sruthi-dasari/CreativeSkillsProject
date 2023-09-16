@@ -29,10 +29,10 @@ const Home = () => {
                     <img className="worked-together-img" src="https://res.cloudinary.com/my-cloud123/image/upload/v1694769139/Creative%20skills/ClassPass_Press_Image17_1_ugulrx.png" alt="worked-together-img" />
 
                     <h1 className='sub-heading'>THE CHALLENGE</h1>
-                    <p className='para challenge-para'>
+                    <p className='para center-aligned-para'>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate
                     </p>
-                    <p className='para challenge-para'>
+                    <p className='para center-aligned-para'>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate
                     </p>
                     <div className='challenge-image-container'>
