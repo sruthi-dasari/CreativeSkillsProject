@@ -123,8 +123,8 @@
     
     .people-main-container{
         
-        padding-left: 284px;
-    padding-right: 284px;
+        padding-left: 240px;
+        padding-right: 240px;
     padding-bottom: 110px;
     }
     
@@ -143,7 +143,7 @@
     
     .people-heading{
        
-        font-size: 32px;
+        font-size: 30px;
         font-weight: 400;
     
     }
@@ -152,7 +152,7 @@
         
         max-width: 640px;
         
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 300;
     }
     
@@ -163,8 +163,9 @@
     }
     
     .founder-coo-img{
-        height: 560px;
-        width: 440px;
+        height: 448px;
+        width: 343px;
+    
     }
     
     .founder-details-container{
@@ -173,7 +174,7 @@
     }
     
     .founder-para{
-        max-width: 448px;
+        max-width: 370px;
     }
     
     .founder-coo-contact{
@@ -197,7 +198,7 @@
     
     .form-field-container{
        
-        width: 530px;
+        width: 386px;
         
     }
     

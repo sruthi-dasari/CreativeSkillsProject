@@ -140,7 +140,7 @@
     }
 
     .worked-together-img {
-        height: 850px;
+        height: 734px;
         width: 100%;
         margin-top: 50px;
         margin-bottom: 50px;
@@ -153,14 +153,14 @@
     }
 
     .challenge-image {
-        height: 400px;
-        width: 500px;
+        height: 314px;
+    width: 352px;
     }
 
     .results-container {
         min-width: 100%;
-        padding-left: 90px;
-        padding-right: 90px;
+        padding-left: 70px;
+    padding-right: 70px;
     }
 
     .result-detail-container {
@@ -170,7 +170,7 @@
     }
 
     .result-detail-heading {
-        font-size: 90px;
+        font-size: 76px;
         margin-bottom: 0px;
     }
 
@@ -180,7 +180,7 @@
     }
 
     .result-image {
-        height: 850px;
+        height: 650px;
         width: 100%;
     }
 
