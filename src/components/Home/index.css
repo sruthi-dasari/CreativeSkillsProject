@@ -1,6 +1,7 @@
-@media screen and (max-width: 767px){
+
     .home-container {
         width: 100vw;
+        
     }
     
     .classpass-container {
@@ -10,6 +11,8 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        
+        padding-top: 30px;
     }
     
     .classpass-heading {
@@ -18,7 +21,7 @@
         font-size: 30px;
         font-weight: 400;
         margin: auto;
-        /* text-align: center; */
+        
     }
     
     .main-container {
@@ -29,16 +32,18 @@
         background-image: linear-gradient(to bottom, #c1b1c1, #cae1af);
         padding-top: 20px;
         padding-bottom: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
         
     }
     
     
-    .sub-heading {
+    .home-heading {
         font-size: 7px;
         font-weight: 700;
     }
     
-    .para {
+    .home-para {
         max-width: 200px;
         font-size: 7px;
     }
@@ -49,7 +54,7 @@
     
     .worked-together-img {
         height: 150px;
-        width: 250px;
+        width: 100%;
         margin-bottom: 20px;
     }
     
@@ -57,7 +62,7 @@
     .challenge-image-container {
         display: flex;
         justify-content: space-between;
-        width: 250px;
+        width: 100%;
         margin-bottom: 20px;
     }
     
@@ -69,8 +74,10 @@
     .results-container {
         display: flex;
         justify-content: space-between;
-        width: 230px;
+        width: 100%;
         margin-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
     .result-detail-container {
@@ -89,11 +96,12 @@
     .result-detail-para {
         font-size: 8px;
         max-width: 50px;
+        text-align: center;
     }
     
     .result-image {
         height: 200px;
-        width: 250px;
+        width: 100%;
         margin-bottom: 20px;
     }
     
@@ -102,10 +110,6 @@
         margin-top: 5px;
         margin-bottom: 5px;
     }
-}
-
-
-
 
 
 @media screen and (min-width: 768px) {
