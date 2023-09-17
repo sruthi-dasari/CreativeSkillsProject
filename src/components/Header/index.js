@@ -8,43 +8,43 @@ import { Link } from 'react-router-dom'
 
 import Popup from 'reactjs-popup'
 
-const Header = () => 
-    (
+const Header = () =>
+(
     <div className='header-container'>
-        
-        <Link to = "/" className = "logo-link"><button className='logo-button'  type="button">
-                <CgShapeTriangle className='logo-image' />
-            </button></Link>
-            
-            <Popup
-                modal
-                trigger={
-                    <button type="button" className='menu-button'>
-                        <AiOutlineMenu className="menu-icon" />
+
+        <Link to="/" className="logo-link"><button className='logo-button' type="button">
+            <CgShapeTriangle className='logo-image' />
+        </button></Link>
+
+        <Popup
+            modal
+            trigger={
+                <button type="button" className='menu-button'>
+                    <AiOutlineMenu className="menu-icon" />
+                </button>
+            }
+            className='popup-content'
+        >
+            {close => (
+                <div className='modal-container'>
+                    <button
+                        type="button"
+                        className="close-button"
+                        onClick={() => close()}
+                    >
+                        <AiOutlineClose className='close-icon' />
                     </button>
-                }
-                className='popup-content'
-            >
-                {close => (
-                    <div className='modal-container'>
-                        <button
-                            type="button"
-                            className="close-button"
-                            onClick={() => close()}
-                        >
-                            <AiOutlineClose className='close-icon' />
-                        </button>
-                        <ul className='nav-links-container'>
-                            <li className='nav-link-item'><Link className="nav-link" to="/" onClick={() => close()}><p className='nav-link-content'>Home</p></Link></li>
-                            <li className='nav-link-item'><Link className="nav-link" to="/about" onClick={() => close()}><p className='nav-link-content'>About</p></Link></li>
-                            <li className='nav-link-item'><Link className="nav-link" to="/people" onClick={() => close()}><p className='nav-link-content'>People</p></Link></li>
-                        </ul>
+                    <ul className='nav-links-container'>
+                        <li className='nav-link-item'><Link className="nav-link" to="/" onClick={() => close()}><p className='nav-link-content'>Home</p></Link></li>
+                        <li className='nav-link-item'><Link className="nav-link" to="/about" onClick={() => close()}><p className='nav-link-content'>About</p></Link></li>
+                        <li className='nav-link-item'><Link className="nav-link" to="/people" onClick={() => close()}><p className='nav-link-content'>People</p></Link></li>
+                    </ul>
 
-                    </div>
-                )}
-            </Popup>
+                </div>
+            )}
+        </Popup>
 
-       
+
     </div>
 )
 

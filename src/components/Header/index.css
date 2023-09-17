@@ -85,39 +85,23 @@
     margin: 0px;
 }
 
-@media screen and(min-width: 768px){
-    .navbar-container{
-        display: flex;
-        justify-content: space-between;
-        
-    }
+@media screen and (min-width: 768px){
     
-    .logo-button{
-        margin-left: auto;
-        margin-right: auto;
-        background: transparent;
-        border: none;
-        cursor: pointer;
-    }
     
     .logo-image{
-        color: #ffffff;
-        font-size: 50px;
-        
+        font-size: 100px;
     }
     
     .menu-button{
-        background: transparent;
-        border: none;
-        position: fixed;
+        
         top: 20px;
         right: 20px;
         /* z-index: 1; */
     }
     
     .menu-icon{
-        color: #ffffff;
-        font-size: 20px;
+        
+        font-size: 40px;
     }
 
     .popup-content {
@@ -127,16 +111,16 @@
 
     .modal-container {
         width: 100%;
-        padding: 10px;
+        padding: 30px;
         /* max-width: 458px; */
     }
 
     .close-icon {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .nav-link-content {
-        font-size: 50px;
+        font-size: 70px;
         margin: 0px;
     }
 }

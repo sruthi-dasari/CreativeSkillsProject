@@ -11,7 +11,6 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        
         padding-top: 30px;
     }
     
@@ -114,66 +113,79 @@
 
 @media screen and (min-width: 768px) {
     .classpass-container {
-        height: 600px;
+        height: 1400px;
     }
 
     .classpass-heading {
-        font-size: 50px;
+        font-size: 90px;
         font-weight: 400;
         margin: auto;
     }
 
     .main-container {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 280px;
+        padding-right: 280px;
     }
 
-    .sub-heading {
-        font-size: 15px;
+    .home-heading {
+        font-size: 35px;
         font-weight: 500;
     }
 
-    .para {
-        max-width: 400px;
-        font-size: 12px;
+    .home-para {
+        max-width: 900px;
+        font-size: 30px;
     }
 
     .worked-together-img {
-        height: 350px;
-        width: 500px;
+        height: 850px;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .challenge-image-container {
-        width: 510px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
     }
 
     .challenge-image {
-        height: 180px;
-        width: 250px;
-    }
-
-    .results-container {
-        min-width: 400px;
-    }
-
-    .result-detail-heading {
-        font-size: 50px;
-        margin-bottom: 0px;
-
-    }
-
-    .result-detail-para {
-        font-size: 12px;
-        max-width: 50px;
-    }
-
-    .result-image {
-        height: 350px;
+        height: 400px;
         width: 500px;
     }
 
+    .results-container {
+        min-width: 100%;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .result-detail-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .result-detail-heading {
+        font-size: 90px;
+        margin-bottom: 0px;
+    }
+
+    .result-detail-para {
+        font-size: 32px;
+        max-width: 130px;
+    }
+
+    .result-image {
+        height: 850px;
+        width: 100%;
+    }
+
     .name-title-company-heading {
-        font-size: 9px;
+        font-size: 18px;
         margin-top: 5px;
         margin-bottom: 5px;
     }

@@ -35,10 +35,11 @@
     font-size: 25px;
 }
 
-@media screen and(min-width: 768px){
+@media screen and (min-width: 768px){
     .footer-container{
         width: 100vw;
-        padding: 20px;
+        padding-left: 200px;
+        padding-right: 200px;
     }
     
     .footer-sections-container{
@@ -46,15 +47,15 @@
     }
     
     .footer-section-heading{
-        font-size: 11px;
+        font-size: 20px;
     }
     
     .footer-section-para{
-        font-size: 11px;
-        max-width: 130px;
+        font-size: 18px;
+    max-width: 223px;
     }
     
     .footer-logo-image{
-        font-size: 40px;
+        font-size: 73px;
     }
 }
