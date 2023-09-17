@@ -42,13 +42,13 @@ const People = () =>(
                 <img className = "founder-coo-img" src = "https://res.cloudinary.com/my-cloud123/image/upload/v1694769128/Creative%20skills/Amy-Moughton_4-768x1158_1_cyqwgs.png" alt = "coo-img"/>
             </div>
             <br/>
-            <h1 className='people-heading'>ARE YOU AN AMBITIOUS PIONEER?</h1>
+            <h1 className='people-heading people-question-heading'>ARE YOU AN AMBITIOUS PIONEER?</h1>
             <p className='people-para'>
                 We are interested in and invested in talented individuals; those who think creatively, have a stretegic mindset and want to deliver award
                 winning, ground breaking results. We empower our people to do their best work in an open environment
                 where they are free to express themselves fully.
             </p>
-            <h1 className='people-heading'>
+            <h1 className='people-heading people-question-heading'>
                 DO YOU WANT TO PUSH BEYOND THE NOW? JOIN US
             </h1>
             <br/>

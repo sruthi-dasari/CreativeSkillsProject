@@ -6,13 +6,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     align-items: center;
 }
 
 .people-main-heading{
     color: #ffffff;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -28,26 +31,27 @@
 
 .people-heading{
     color: #ffffff;
-    font-size: 15px;
+    font-size: 8px;
+    font-weight: 700;
 }
 
 .people-para{
     color: #ffffff;
-    max-width: 290px;
+    max-width: 180px;
     text-align: center;
-    font-size: 13px;
+    font-size: 7px;
     font-weight: 300;
 }
 
 .founder-coo-container{
     display: flex;
     justify-content: space-between;
-    min-width: 450px;
+    min-width: 100%;
 }
 
 .founder-coo-img{
-    height: 280px;
-    width: 200px;
+    height: 160px;
+    width: 120px;
 }
 
 .founder-details-container{
@@ -59,31 +63,38 @@
 }
 
 .founder-para{
-    max-width: 200px;
+    max-width: 100px;
 }
 
 .founder-coo-contact{
     color: #ffffff;
     font-weight: 100;
-    font-size: 10px;
+    font-size: 6px;
+}
+
+.people-question-heading{
+    max-width: 150px;
+    text-align: center;
 }
 
 .people-form{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 530px;
+    min-width: 100%;
+    
 }
 
 .form-field-container{
     display: flex;
     flex-direction: column;
-    width: 250px;
+    
     
 }
 
 .form-title{
     color: #ffffff;
+    font-size: 8px;
 }
 
 .submit-button{
@@ -96,6 +107,101 @@
 }
 
 .form-input-box{
-    height: 30px;
+    height: 15px;
+    width: 120px;
     border: none;
+}
+
+.people-last-image{
+    width: 100%;
+}
+
+@media screen and(min-width: 768px){
+    .people-container{
+        
+    }
+    
+    .people-main-container{
+        
+        padding: 30px;
+        
+    }
+    
+    .people-main-heading{
+       
+        font-size: 60px;
+        
+    }
+    
+    
+    .people-heading-para-container{
+        /* max-width: 300px; */
+        
+    }
+    
+    
+    .people-heading{
+       
+        font-size: 15px;
+    }
+    
+    .people-para{
+        
+        max-width: 290px;
+        
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    .founder-coo-container{
+        
+        min-width: 450px;
+    }
+    
+    .founder-coo-img{
+        height: 280px;
+        width: 200px;
+    }
+    
+    .founder-details-container{
+       
+        
+    }
+    
+    .founder-para{
+        max-width: 200px;
+    }
+    
+    .founder-coo-contact{
+        
+        font-weight: 100;
+        font-size: 10px;
+    }
+    
+    .people-form{
+       
+        width: 530px;
+    }
+    
+    .form-field-container{
+       
+        width: 250px;
+        
+    }
+    
+    .form-title{
+        
+    }
+    
+    .submit-button{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        
+    }
+    
+    .form-input-box{
+        height: 30px;
+        
+    }
 }
