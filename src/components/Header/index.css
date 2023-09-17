@@ -3,9 +3,12 @@
     width: 100%;
 }
 
-.logo-button{
+.logo-link{
     margin-left: auto;
     margin-right: auto;
+}
+
+.logo-button{
     background: transparent;
     border: none;
     cursor: pointer;

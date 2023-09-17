@@ -8,12 +8,14 @@ import { Link } from 'react-router-dom'
 
 import Popup from 'reactjs-popup'
 
-const Header = () => (
+const Header = () => 
+    (
     <div className='header-container'>
         
-            <button type="button" className='logo-button'>
+        <Link to = "/" className = "logo-link"><button className='logo-button'  type="button">
                 <CgShapeTriangle className='logo-image' />
-            </button>
+            </button></Link>
+            
             <Popup
                 modal
                 trigger={
@@ -45,5 +47,6 @@ const Header = () => (
        
     </div>
 )
+
 
 export default Header
