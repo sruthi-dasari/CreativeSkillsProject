@@ -23,7 +23,7 @@
 .main-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     background-image: linear-gradient(to bottom, #c1b1c1, #cae1af);
     padding-top: 20px;
@@ -33,13 +33,13 @@
 
 
 .sub-heading {
-    font-size: 8px;
+    font-size: 7px;
     font-weight: 700;
 }
 
 .para {
     max-width: 200px;
-    font-size: 8px;
+    font-size: 7px;
 }
 
 .center-aligned-para {
