@@ -22,7 +22,6 @@ const Home = () => {
                         ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
                         fringilla vel, aliquet nec, vulputate
                     </p>
-
                     <h1 className='sub-heading'>WE WORKED TOGETHER ON</h1>
                     <p className='para'>A campaign to text to go here</p>
 
